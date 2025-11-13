@@ -20,7 +20,20 @@ print(1 < x < 20)         # True
 
 
 # Practice Problems:
+#Grade checker
 
+grade = int(input("What score did you get: "))
+
+if grade >= 90:
+    print("You got an A.")
+elif grade <= 89 and grade >= 80:
+    print("You get a B.")
+elif grade <= 79 and grade >= 70:
+    print("You got a C.")
+elif grade < 70 and grade > 68:
+    print("You got a D.")
+else:
+    print("You got a F.")
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
