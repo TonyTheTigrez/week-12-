@@ -31,7 +31,36 @@ print(a <= b)   # True
 10 != 10
 8 > 8
 8 < 8
+
+8 == 8
+8 >= 8
+8 <= 8
 # Create a simple grade-checking condition:
+grade = int(input("Enter your score: "))
+
+if grade >= 90:
+    print("You got an A.")
+elif grade >= 80:
+    print("You got a B.")
+elif grade >= 70:
+    print("You got a C.")
+elif grade >= 60:
+    print("You got a D.")
+elif grade < 60:
+    print("You got a F.")
+
+
+
+
 
 # practice problem :
-# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+# where a student must check if their score is greater than or equal to 60 to pass a test.# \
+
+# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+
+password = input("Enter password: ")
+
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("Password is invalid.")
+else:
+    print("Password is invalid.")
