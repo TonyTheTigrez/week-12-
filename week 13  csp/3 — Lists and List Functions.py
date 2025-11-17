@@ -91,3 +91,35 @@ print(len(loi))
 #extend list
 loi.extend(range(1001, 2001))
 print(len(loi))
+
+
+#why use list
+#isntead of seperate variables for each item, we can store them in list and make everything easier
+#makes our code easier and makes us manage multiple items easier
+
+
+#sets handle duplicates
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apple", "banana", "cherry"}
+
+print(set1)
+print(set2)
+print(type(set1))
+      
+setD = [1,2,3,4,5,4,5,3] # [1, 2, 3, 4, 5, 4, 5, 3]
+print(setD)
+
+print(3 in set1) # True
+print(6 in set1) # False
+
+#tuples exaples
+tuple1 = (1,2,3,4,5)
+tuple2 = {"apple", "banana", "cherry"}
+
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+
+#y use tuples
+#tuple are imutable, cant be changed
+#this makes it useful for storing data that should not be modified
