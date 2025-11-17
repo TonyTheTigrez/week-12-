@@ -24,16 +24,28 @@
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+favfood = ["Pizza", "Soup", "Garlic Bread", "Deep Dish Pizza", "Cheese Sticks"]
 # Print the second and last item.
+print(favfood[1])
+print(favfood[-1])
 
 # Add a new item using .append().
-
+favfood.append("Steak")
+print(favfood)
 # Remove the first item using .pop(0).
-
+favfood.pop(0)
+print(favfood)
 # Reverse your list using .reverse().
-
+favfood.reverse
+print(favfood)
 # Create a list of 3 lists (matrix), and access the middle element.
+list1 = list(range(1, 11))
+list2 = list(range(11, 21))
+list3 = list(range(21 , 31))
+
+listoflist = [list1, list2, list3]
+
+
 
 # collections are used to store multiple items in a single variable
 #list are ordered collections of itmes
